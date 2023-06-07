@@ -94,8 +94,6 @@ bool hash_table_insert(struct _hash_table *ht, const char *name, int age, void *
     return true;
 }
 
-
-
 void *hash_table_lookup(struct _hash_table *ht, const char *name) {
     size_t index = hash_table_index(ht, name);
 
